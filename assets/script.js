@@ -22,7 +22,7 @@ let indexSlideCourant = 0;
 let arrow_left = document.getElementById("arrow_left");
 let arrow_right = document.getElementById("arrow_right");
 const img = document.querySelector(".banner-img");
-const tag = document.querySelector("#banner p");
+const tag = document.querySelector("p");
 
 // flèche droite
 
@@ -53,7 +53,7 @@ arrow_left.addEventListener("click", function () {
   }
   dotSlide[indexSlideCourant].classList.add("dot_selected");
   img.src = slides[indexSlideCourant].image;
-  tag.innerHtml = slides[indexSlideCourant].tagLine;
+  tag.innerHTML = slides[indexSlideCourant].tagLine;
 });
 // fin
 
