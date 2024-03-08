@@ -37,7 +37,7 @@ arrow_right.addEventListener("click", function () {
   }
   dotSlide[indexSlideCourant].classList.add("dot_selected");
   img.src = slides[indexSlideCourant].image;
-  tag.innerHtml = slides[indexSlideCourant].tagLine;
+  tag.innerHTML = slides[indexSlideCourant].tagLine;
 });
 // fin
 

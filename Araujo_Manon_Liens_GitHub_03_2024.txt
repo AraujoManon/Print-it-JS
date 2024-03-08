@@ -1,0 +1,2 @@
+Site en ligne: https://araujomanon.github.io/Print-it-JS/
+git hub: https://github.com/AraujoManon/Print-it-JS
