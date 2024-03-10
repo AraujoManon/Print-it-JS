@@ -62,5 +62,9 @@ for (let i = 0; i < slides.length; i++) {
   let span = document.createElement("span");
   span.classList.add("dot");
   document.querySelector(".dots").appendChild(span);
+  if (i === 0) {
+    span.classList.add("dot_selected");
+  }
 }
+
 // fin
